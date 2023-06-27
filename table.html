@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        <title>creating tables</title>
+    </head>
+    <body>
+        <table style="background-color: aqua;">
+            <tr>
+        <th>item</th>
+        <th>count</th>
+            </tr>
+            <tr>
+                <td>mango</td>
+                <td>125</td>
+            </tr>
+            <tr>
+                <th>apple</th>
+                <th>65</th>
+            </tr>
+        </table>
+        <hr>
+ <table border="1" style="border-collapse: collapse;">
+    <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>relation</th>
+    </tr>
+    <tr>
+        <td>bandana</td>
+        <td>48</td>
+        <td>mother</td>
+    </tr>
+    <tr>
+        <td>nagesh</td>
+        <td>53</td>
+        <td>father</td>
+    </tr>
+    <tr>
+        <td>satyajit</td>
+        <td>25</td>
+        <td>brother</td>
+    </tr>
+ </table>
+ <!-- a table consists of head, body, footer,now we will practice regarding that. -->
+<hr>
+ <table border="1" style="border-collapse: collapse;">
+    <thead style="color:red;">
+        <tr>
+            <th>s.n.</th>
+            <th>item</th>
+            <th>quantity</th>
+        </tr>
+    </thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>apple</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>strawberry</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>litchi</td>
+        <td>20</td>
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td></td>
+            <td>Total</td>
+            <td>45</td>
+    </tr>
+</tfoot>
+</table>
+<!-- next we try here about the colspan -->
+<hr>
+<table border="1">
+    <thead style="font-size:large">
+        <tr>
+            <th>s.n.</th>
+            <th>item</th>
+            <th>quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>tomato</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>potato</td>
+            <td>5</td>
+        </tr>
+        <td>3</td>
+        <td>carrot</td>
+        <td>5</td>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2"> total</td>
+            <td>20</td>
+        </tr>
+    </tfoot>
+</table> 
+ <!--rowspan usage  -->
+ <table>
+    <tr>
+      <th>Name</th>
+      <th>Subject</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td rowspan="3">Mark Smith</td>
+      <td>English</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>Maths</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <td>Science</td>
+      <td>91</td>
+    </tr>
+  </table>
+  <!-- vertical headers and captions -->
+  <hr>
+  <table border="1" style="border-collapse:collapse";>
+    <caption>student details</caption>
+    <tr>
+      <th>Name</th>
+      <th>Subject</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td rowspan="3">Mark Smith</td>
+      <td>English</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>Maths</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <td>Science</td>
+      <td>91</td>
+    </tr>
+  </table>
+</body>
+</html>
