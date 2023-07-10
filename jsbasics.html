@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript basics</title>
+        <style>
+           h2{
+            color:darkgreen;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:40px;
+           }
+           p.trial{
+                color:blue;
+                font-size: 30px;
+            }
+        </style>
+        </head>
+        <body>
+            <h2>What can javascript do?</h2>
+            <p class="trial" id="demo">Javascript can change HTML content, its style and its attribute.</p>
+            <p>here with the help of javascript we can make a flower colourful by changing the source attribute of the image.</p>
+
+            <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello Javascript!"'>Click Me!</button><br> <br>
+            <button type="button" onclick='document.getElementById("demo").style.fontSize="35px"'>Click Here!</button>
+            <br>
+            <br>
+            <button type="button" onclick="document.getElementById('myImage').src='https://media.gettyimages.com/id/157612211/photo/red-rose-isolated-on-black.jpg?s=612x612&w=gi&k=20&c=mcjNGwpCdgj3RP_nXTiDukSd2A6YAXgm7jUD2Yj_SeI='">Change the colour</button>
+            
+            <img id="myImage" src="https://media.gettyimages.com/id/200563577-001/photo/white-rose-against-black-background-close-up-overhead-view.jpg?s=612x612&w=gi&k=20&c=_YFZGv8AbMAeWlAnJLI4XnvQgIL_vYlaWJAL49CnQ7k=" style="width:400px">
+            
+            <button onclick="document.getElementById('myImage').src='https://media.gettyimages.com/id/200563577-001/photo/white-rose-against-black-background-close-up-overhead-view.jpg?s=612x612&w=gi&k=20&c=_YFZGv8AbMAeWlAnJLI4XnvQgIL_vYlaWJAL49CnQ7k='">Back to the original</button>
+        </body>
+</html>
